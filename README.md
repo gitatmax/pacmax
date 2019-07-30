@@ -20,3 +20,5 @@ With this workflow you can wuickly get to and filter results on Pacmax's Explore
 ## Contributions Welcome
 
 Have an idea that'd improve this? Awesome, please open a pull request!
+
+## MIT License © Maxwell Jordan White
