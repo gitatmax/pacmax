@@ -2,7 +2,7 @@
 
 Pacmax is a collection of resources usable by the awesome macOS application, Alfred (no affiliation, by the way). Alfred is more or less Apple’s Spotlight on steroids. Pacmax’s goal is to bring the awesome packages and their creators to light with easy browsing & sharing tools. 
 
-With this workflow you can wuickly get to and filter results on Pacmax's Explore page!
+With this workflow you can quickly get to and filter results on Pacmax's Explore page!
 
 ![Search Pacmax](search-pacmax-preview.png "Search Pacmax")
 
