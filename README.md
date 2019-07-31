@@ -4,7 +4,7 @@ Pacmax is a collection of resources usable by the awesome macOS application, Alf
 
 With this workflow you can quickly get to and filter results on Pacmax's Explore page!
 
-![Search Pacmax](search-pacmax-preview.png "Search Pacmax")
+![Search Pacmax](search-pacmax-preview-image.png "Search Pacmax")
 
 ## Setting Up
 
