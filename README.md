@@ -8,9 +8,9 @@ With this workflow you can quickly get to and filter results on Pacmax's Explore
 
 ## Setting Up
 
-1. Grab the latest release
-2. Open it and select Import
-3. All set!
+1. [Grab the latest release](https://github.com/maxwelljordanwhite/search-pacmax/releases)
+2. Open it & select Import
+3. You're all set!
 
 ## Usage
 
