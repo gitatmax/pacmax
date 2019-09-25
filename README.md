@@ -4,7 +4,7 @@ Pacmax is a collection of resources usable by the awesome macOS application, Alf
 
 With this workflow you can quickly get to and filter results on Pacmax's Explore page!
 
-![Search Pacmax](search-pacmax-preview-image.png "Search Pacmax")
+![Search Pacmax](preview.gif "Search Pacmax")
 
 ## Setting Up
 
@@ -17,9 +17,9 @@ With this workflow you can quickly get to and filter results on Pacmax's Explore
 1. Trigger Alfred
 2. Type either `pm` or `pacmax` followed by a <kbd>space</kbd>, the word you'd like to search for, and then <kbd>return</kbd>. E.g., `pm` + <kbd>space</kbd> + `spotify` + <kbd>return</kbd>. The results for your search will open in your default browser.
 
-## Contributions Welcome
+## Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Have an idea that'd improve this? Awesome, please open a pull request!
+Have an idea that'd improve this project? I'm all ears! Issues and pull requests welcome.
 
 ## License
 
