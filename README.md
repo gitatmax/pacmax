@@ -6,6 +6,10 @@ Pacmax is a collection of resources usable by the awesome macOS application, Alf
 
 With this workflow you can quickly get to and filter results on Pacmax's Explore page!
 
+## Make Your Own Pacmax Search
+
+If you dig this workflow but want it to do more, you may be interested in creating your own with the [Pacmax (REST) API](https://github.com/maxwelljordanwhite/pacmax-api)!
+
 ## Setting Up
 
 1. [Grab the latest release](https://github.com/maxwelljordanwhite/search-pacmax/releases)
