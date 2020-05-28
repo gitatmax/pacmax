@@ -8,7 +8,7 @@ With this workflow you can quickly get to and filter results on Pacmax's Explore
 
 ## Make Your Own Pacmax Search
 
-If you dig this workflow but want it to do more, you may be interested in creating your own with the [Pacmax (REST) API](https://github.com/maxwelljordanwhite/pacmax-api)!
+Want to make this workflow your own? Check out the [Pacmax (REST) API](https://github.com/maxwelljordanwhite/pacmax-api)!
 
 ## Setting Up
 
