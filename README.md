@@ -16,7 +16,7 @@ With this workflow you can quickly get to and filter results on Pacmax's Explore
 1. Trigger Alfred
 2. Type either `pm` or `pacmax` followed by a <kbd>space</kbd>, the word you'd like to search for, and then <kbd>return</kbd>. E.g., `pm` + <kbd>space</kbd> + `spotify` + <kbd>return</kbd>. The results for your search will open in your default browser.
 
-## Make Your Own Pacmax Search
+## Make Your Own
 
 In hopes of increasing the accessibility of Pacmax, I’ve opened up endpoints to the site’s REST API. They are few, but I think it will be incredibly valuable for anyone interested in querying Pacmax from in their projects.
 
