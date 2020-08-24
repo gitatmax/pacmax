@@ -43,6 +43,10 @@ Here’s an example request to fetch 100 packages:
 
 `GET https://pacmax.org/wp-json/wp/v2/pacs?_fields=title,update_on&_per_page=100`
 
+## Add Pacmax as a Search Engine in your browser
+
+For Chrome (more to be confirmed): Add `https://pacmax.org/?_search=%` at [chrome://settings/searchEngines](chrome://settings/searchEngines)
+
 ## Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Have an idea that'd improve this project? I'm all ears! Issues and pull requests welcome.
