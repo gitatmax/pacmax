@@ -45,7 +45,7 @@ Here’s an example request to fetch 100 packages:
 
 ## Add Pacmax as a Search Engine in your browser
 
-For Chrome (more to be confirmed): Add `https://pacmax.org/?_search=%` at [chrome://settings/searchEngines](chrome://settings/searchEngines)
+For Chrome (more to be confirmed): Add `https://pacmax.org/?_search=%` in Chrome (more browsers to be confirmed) at [chrome://settings/searchEngines](chrome://settings/searchEngines)
 
 ## Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
