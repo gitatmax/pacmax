@@ -1,4 +1,4 @@
-# Pacmax Search
+# Pacmax
 
 <img src="icon.png" width="100px" title="Search Pacmax">
 
