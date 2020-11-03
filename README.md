@@ -45,7 +45,7 @@ Here’s an example request to fetch 100 packages:
 
 **As a search engine;** For Chrome (more to be confirmed): Add `https://pacmax.org/?_search=%` in Chrome (more browsers to be confirmed) at [chrome://settings/searchEngines](chrome://settings/searchEngines)
 
-**As a Bookmarklet;** Copy the following and paste it into a new bookmarkjavascript:
+**As a Bookmarklet;** Copy the following and paste it into a new bookmark:
 
 ```
 javascript:(function()%7Bif%20(window.location.hostname%20%3D%3D%20%22github.com%22)%7B%0A%20%20%20%20var%20url%20%3D%20document.URL%3B%0A%20%20%20%20var%20baseUrl%20%3D%20%20'https%3A%2F%2Fpacmax.org%2Fsubmit-repo%2F'%3B%0A%20%20%20%20window.open(baseUrl%20%2B'%3Frepo_url%3D'%20%2B%20document.URL%2C%20'_blank')%3B%0A%0A%7Delse%20if%20(window.location.hostname%20%3D%3D%20%22pacmax.org%22)%7B%0A%7D%0Aelse%20%7B%0A%20%20%20%20alert('Sorry%2C%20Pacmax%20Bookmarket%20%2C%20Works%20only%20on%20Github%20Repo%20home')%3B%0A%7D%0Aconsole.log(%22Pacmax%20Bookmarket%20-%20V.1.0%22)%3B%7D)()%3B
