@@ -1,4 +1,4 @@
-# Pacmax
+<img src="pacmax-github-banner.png"/>
 
 Pacmax was assembled as a way for [Alfred](https://alfredapp.com) lovers to find and share their favorite workflows, snippets, and themes.
 This repository outlines a few features such as the Pacmax Alfred Workflow, the API for creating your own Workflow or other contraptions, and more!
