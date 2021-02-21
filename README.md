@@ -1,60 +1,64 @@
 <img src="pacmax-github-banner.png"/>
 
-Pacmax was assembled as a way for [Alfred](https://alfredapp.com) lovers to find and share their favorite workflows, snippets, and themes.
-This repository outlines a few features such as the Pacmax Alfred Workflow, the API for creating your own Workflow or other contraptions, and more!
+Pacmax was initially a way for lovers of [Alfred](https://alfredapp.com) to find and share their favorite workflows, snippets, and themes. It's since begun to cover more ground by adding more support for other extensions to more applications (often referred collectively here and on [Pacmax](https://pacmax.org/) as "Pacs". Read on for info on how to make use of the site's REST API, how to leave feedback, among other things!
 
-## The Pacmax Search Workflow
+## API
+
+The Pacmax REST API is for anyone who'd like to work with the data points across the site.
+
+### Parameters
+
+The route for packages on Pacmax is `/wp/v2/pacs`. There are several usable parameters that [I](https://github.com/gitatmax/) am looking forward to adding to:
+
+| Parameter           	| Description (package reduced to "Pac")   |
+|:--------------------|:----------------------------------------------|
+| `title`                    | The Pac’s title                                             |
+| `update_on`          | The last date the Pac was updated            |
+| `import_theme`    | One-click theme import (when available)  |
+| `author_username`    | The Pac author’s GitHub username       |
+| `author_name`      | The Pac author’s name                                |
+| `author_github_page` | The Pac author’s GitHub profile           |
+| `releases_zip_url`   | A link to download the latest release zipped |
+| `download_url_master`| The most up to date source code |
+| `stars`              | The number of Stars a Pac has |
+| `repo_url`           | The Pac’s GitHub URL |
+
+#### An Example Request
+
+This example should return 100 responses, each with a title & a date it was last  updated:
+
+`GET https://pacmax.org/wp-json/wp/v2/pacs?_fields=title,update_on&_per_page=100`
+
+## Use the Alfred Workflow
+
+### Setup
 
 1. [Grab the latest release](https://github.com/maxwelljordanwhite/search-pacmax/releases)
 2. Open it & select Import
-3. You're all set!
+3. You're all set! See Usage below.
 
 ### Usage
 
 1. Trigger Alfred
-2. Type either `pm` or `pacmax` followed by a <kbd>space</kbd>, the word you'd like to search for, and then <kbd>return</kbd>. E.g., `pm` + <kbd>space</kbd> + `spotify` + <kbd>return</kbd>. The results for your search will open in your default browser.
+2. Type `pm` or `pacmax` followed by a <kbd>space</kbd>
+3. Type you'd like to search for (e.g. "Spotify")
+4.  Lastly, smash (gently) <kbd>return</kbd>. The results of your search will open in your browser. 🙌
 
-## Use the Pacmax API
+## Add Pacmax as a Search Engine in Your Browser
 
-In hopes of increasing the accessibility of Pacmax, I’ve opened up endpoints to the site’s REST API. They are few, but I think it will be incredibly valuable for anyone interested in querying Pacmax from in their projects.
+Using Google Chrome as an example, add `https://pacmax.org/?_search=%` in Chrome at [chrome://settings/searchEngines](chrome://settings/searchEngines)
 
-### Parameters
-
-The route for packages on Pacmax is /wp/v2/pacs and here are several usable parameters:
-
-| Parameter            | Description                                                   |
-|:---------------------|:--------------------------------------------------------------|
-| `title`              | The package’s title                                           |
-| `update_on`          | The last date the package was updated                         |
-| `import_theme`       | If available, provides a path for one-click theme importing   |
-| `author_username`    | The package author’s GitHub username                          |
-| `author_name`        | The package author’s name                                     |
-| `author_github_page` | The package author’s GitHub profile                           |
-| `releases_zip_url`   | A link to download the latest release zipped                  |
-| `download_url_master`| The most up to date source code                               |
-| `stars`              | The number of Stars a package has                             |
-| `repo_url`           | The package’s GitHub URL                                      |
-
-### An Example Request
-
-Here’s an example request to fetch 100 packages:
-
-`GET https://pacmax.org/wp-json/wp/v2/pacs?_fields=title,update_on&_per_page=100`
-
-## Add Pacmax to your browser
-
-**As a search engine;** For Chrome (more to be confirmed): Add `https://pacmax.org/?_search=%` in Chrome (more browsers to be confirmed) at [chrome://settings/searchEngines](chrome://settings/searchEngines)
-
-**As a Bookmarklet;** Copy the following and paste it into a new bookmark:
+## Submit a GitHub Repository to Pacmax With a Bookmarklet
+Copy the following and paste it into a new bookmark:
 
 ```
 javascript:(function()%7Bjavascript%3A%20(function%20()%20%7B%0A%20%20if%20(window.location.hostname%20%3D%3D%20%22github.com%22)%20%7B%0A%20%20%20%20var%20url%20%3D%20document.URL%3B%0A%20%20%20%20var%20baseUrl%20%3D%20%22https%3A%2F%2Fpacmax.org%2Fsubmit-repo%2F%22%3B%0A%20%20%20%20window.open(baseUrl%20%2B%20%22%3Frepo_url%3D%22%20%2B%20document.URL%2C%20%22_blank%22)%3B%0A%20%20%7D%20else%20if%20(window.location.hostname%20%3D%3D%20%22pacmax.org%22)%20%7B%0A%20%20%7D%20else%20%7B%0A%20%20%20%20alert(%22Sorry%2C%20this%20only%20works%20with%20GitHub%20repositories%22)%3B%0A%20%20%7D%0A%20%20console.log(%22Pacmax%20Bookmarket%20-%20V.1.0%22)%3B%0A%7D)()%3B%7D)()%3B
 ```
 
-## Contribute [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## Contribute
 
 Have an idea that'd improve this project? I'm all ears! Issues and pull requests welcome.
 
 ## License
 
-MIT License © Maxwell Jordan White
+[MIT License © Maxwell Jordan White](LICENSE.md)
