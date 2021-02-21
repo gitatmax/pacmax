@@ -33,7 +33,7 @@ This example should return 100 responses, each with a title & a date it was last
 
 ### Setup
 
-1. [Grab the latest release](https://github.com/gitatmax/search-pacmax/releases)
+1. [Grab the latest release](https://github.com/gitatmax/pacmax/releases/latest)
 2. Open it & select Import
 3. You're all set! See Usage below.
 
