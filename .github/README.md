@@ -1,4 +1,4 @@
-<img src="pacmax-github-banner.png"/>
+# Pacmax
 
 Pacmax was initially a way for lovers of [Alfred](https://alfredapp.com) to find and share their favorite workflows, snippets, and themes. It's since begun to cover more ground by adding more support for other extensions to more applications (often referred collectively here and on [Pacmax](https://pacmax.org/) as "Pacs". Read on for info on how to make use of the site's REST API, how to leave feedback, among other things!
 
