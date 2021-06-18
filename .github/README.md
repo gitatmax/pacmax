@@ -10,7 +10,7 @@ Pacmax was originally a way for folks to share their favorite extensiosn for the
 
 ## What's to Come
 
-- Improved REST API
+- An improved REST API
 - Favelets to Add & Search Pacmax
 
 ## Contribute
