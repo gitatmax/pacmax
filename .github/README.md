@@ -15,4 +15,4 @@ Pacmax was originally a way for folks to share their favorite extensiosn for the
 
 ## Contribute
 
-Have an idea that'd help improve all of this? Issues and pull requests are welcome!
+Help Pacmax improve! Issues and Pull Requests are welcome :)
