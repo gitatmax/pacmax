@@ -6,5 +6,5 @@ Pacmax was originally a place for folks to explore & share their favorite extens
 
 Until then, thank you for your interest & please check back soon for more :)
 
-Have a great rest of your day,
+Have a great rest of your day,\
 Max
