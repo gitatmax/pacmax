@@ -24,6 +24,6 @@ Then, we have our Pac-specific items:
   * `stars`; How many Stars the project has on GitHub
   * `update_on`; When the GitHub repository was last updated
 * [`/siri-shortcuts`](https://pacmax.org/api/pacs/siri-shortcuts)
- * `siri_shortcut_info`; About the Shortcut
- * `siri_shortcut_url`; The URL for grabbing the Shortcut
+  * `siri_shortcut_info`; About the Shortcut
+  * `siri_shortcut_url`; The URL for grabbing the Shortcut
 * [`/userscripts`](https://pacmax.org/api/pacs/userscripts)
