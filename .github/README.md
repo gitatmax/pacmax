@@ -12,7 +12,7 @@ _Again, this is a work-in-progress—much of this will probably be revised._
 
 To start, all of the "Pacs" (essentially categories on the site) have some overlapping items:
 
-* `post_name`
+* `post_title`
 * `permalink`
 
 Then, we have our Pac-specific items:
@@ -24,4 +24,6 @@ Then, we have our Pac-specific items:
   * `stars`; How many Stars the project has on GitHub
   * `update_on`; When the GitHub repository was last updated
 * [`/siri-shortcuts`](https://pacmax.org/api/pacs/siri-shortcuts)
+ * `siri_shortcut_info`; About the Shortcut
+ * `siri_shortcut_url`; The URL for grabbing the Shortcut
 * [`/userscripts`](https://pacmax.org/api/pacs/userscripts)
