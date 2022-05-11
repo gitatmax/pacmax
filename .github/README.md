@@ -17,7 +17,7 @@ To start, all of the "Pacs" (essentially categories on the site) have some overl
 
 Then, we have our Pac-specific items:
 
-* [`/alfred-workflows`](https://pacmax.org/api/alfred-workflows) (_Many of these fields are being made available to all categories very soon_)
+* [`/alfred-workflows`](https://pacmax.org/api/pacs/alfred-workflows) (_Many of these fields are being made available to all categories very soon_)
   * `repo_url`; the URL of the project on GitHub
   * `author_username`; the author's GitHub Username
   * `releases_zip_url`; The URL to the project's latest zipped release
