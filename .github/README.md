@@ -1,4 +1,4 @@
-## [Please support Ukraine](https://www.unicefusa.org/stories/unicef-children-are-bearing-brunt-intensifying-crisis-ukraine/39481?form=FUNKBHMZQDQ&utm_content=Ukraine2&ms=cpc_dig_2021_Ukraine2_20210801_google_Ukraine2_delve_None&initialms=cpc_dig_2020_Ukraine2_20210801_google_Ukraine2_delve_None) 🇺🇦
+## [Please support Ukraine!](https://war.ukraine.ua/support-ukraine/) 🇺🇦
 
 # Pacmax
 
