@@ -1,2 +1,11 @@
 .DS_Store
-.idea
+.AppleDouble
+.LSOverride
+.idea/
+*.iml
+.Trash/
+.fseventsd
+.Spotlight-V100
+*.log
+npm-debug.log*
+yarn-error.log
